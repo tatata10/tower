@@ -1,0 +1,330 @@
+
+@media (min-width: 700px) {
+    
+header{
+    text-align: center;
+}
+.header{
+    background: url('eyJidWNrZXQiOiJnYW1lcmNoLWltZy1jb250ZW50cyIsImtleSI6Indpa2lcLzEzODZcL2VudHJ5XC9va2xhRFNFWC5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp7InF1YWxpdHkiOjg1fSwidG9Gb3JtYXQiOiJ3ZWJwIn19.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: auto;  
+    height: 20rem;
+    width: 50rem; 
+    display: inline-block;
+}
+.header img{
+    width: 50rem;
+}
+.color{
+    background: rgba(255,255,255,.9);
+    margin-top: 4rem;
+    height: 10rem;
+    text-align: center;
+    width: 20rem;
+    display: inline-block;
+}
+h1{
+    font-family: reggae-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 20rem;
+}
+main{
+    text-align: center;
+}
+.table{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+     width: 40rem; 
+   /* width: 70%; */
+    text-align: center;
+}
+td{
+    border:none;
+    
+}
+tr.ss{
+    background-color:rgb(238, 62, 62);
+}
+.sp{
+    background-color:  rgb(233, 122, 122);
+}
+.s{
+    background-color: rgb(188, 143, 143);
+}
+.ap{
+    background-color: deepskyblue;
+}
+.a{
+    background-color:paleturquoise;
+}
+.am{
+    background-color: lightcyan;
+}
+.b{
+    background-color: lightgreen;
+}
+.c{
+    background-color: navajowhite;
+}
+ .container{
+        display: flex;
+        justify-content: center;
+    }
+
+aside{
+   margin-left: auto;
+   display: block;
+}
+table img{
+    width: 90px;
+}
+p.article-desc{
+    margin: 32px 0 0;
+    padding: 32px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #183028;
+}
+
+.popup-content{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+  }
+   
+  button::before, button::after { /* 共通設定 */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px; /* 棒の幅（太さ） */
+    height: 15px; /* 棒の高さ */
+    background: #333;
+  }
+   
+  button::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+   
+  button::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+
+}
+
+
+@media (max-width: 700px) {
+    
+
+    header{
+        text-align: center;
+    }
+    .header{
+        background: url('IMG_3562.PNG');
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        width: 40rem;
+        height: auto;
+        display: inline-block;
+    }
+    .color{
+        background: rgba(255,255,255,.8);
+        margin-top: 7rem;
+        height: 5rem;
+        text-align: center;
+        width: 16rem;
+        display: inline-block;
+    }
+    h1{
+        font-family: reggae-one, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    main{
+        text-align: center;
+    }
+    .table{
+        text-align: center;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+        text-align: center;
+    }
+    td{
+        border:none;
+        
+    }
+    tr.ss{
+        background-color:rgb(238, 62, 62);
+    }
+    .sp{
+        background-color:  rgb(233, 122, 122);
+    }
+    .s{
+        background-color: rgb(188, 143, 143);
+    }
+    .ap{
+        background-color: deepskyblue;
+    }
+    .a{
+        background-color:paleturquoise;
+    }
+    .am{
+        background-color: lightcyan;
+    }
+    .b{
+        background-color: lightgreen;
+    }
+    .c{
+        background-color: navajowhite;
+    }
+    p.article-desc{
+        margin: 32px 0 0;
+        padding: 32px;
+        background-color: #f2f2f2;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0;
+        color: #183028;
+        width: 40rem;
+    }
+    
+    .popup-content{
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    button {
+        display: block;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+      }
+       
+      button::before, button::after { /* 共通設定 */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 2px; /* 棒の幅（太さ） */
+        height: 15px; /* 棒の高さ */
+        background: #333;
+      }
+       
+      button::before {
+        transform: translate(-50%,-50%) rotate(45deg);
+      }
+       
+      button::after {
+        transform: translate(-50%,-50%) rotate(-45deg);
+      }
+    }
+
+    /* ポップアップ広告 */
+    /* @keyframes fadeIn {
+        from { opacity: 0; }    
+        to { opacity: 1; }
+    }
+    
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .75);
+        
+        &-banner {
+            position: relative;
+        }
+        
+        &-close {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 1.5rem;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+    
+        //popup表示時に付加されるclass
+        &.open {
+            display: flex;
+            animation: fadeIn .7s;
+        }
+    } */
+    
+
+    .popup-content{
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    button {
+        display: block;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+      }
+       
+      button::before, button::after { /* 共通設定 */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 2px; /* 棒の幅（太さ） */
+        height: 15px; /* 棒の高さ */
+        background: #333;
+      }
+       
+      button::before {
+        transform: translate(-50%,-50%) rotate(45deg);
+      }
+       
+      button::after {
+        transform: translate(-50%,-50%) rotate(-45deg);
+      }
+      
+    
