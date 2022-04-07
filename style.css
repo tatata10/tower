@@ -90,7 +90,8 @@ p.article-desc{
     background-color: #f2f2f2;
     border-radius: 8px;
     font-family: inherit;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 30px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0;
@@ -207,7 +208,8 @@ button {
         background-color: #f2f2f2;
         border-radius: 8px;
         font-family: inherit;
-        font-size: 14px;
+       /*  font-size: 14px; */
+        font-size: 50px;
         font-weight: 500;
         line-height: 22px;
         letter-spacing: 0;
